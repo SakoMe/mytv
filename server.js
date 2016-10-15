@@ -13,7 +13,7 @@ var async = require('async');
 var request = require('request');
 var xml2js = require('xml2js');
 
-var agenda = require('agenda')({ db: { address: 'mongodb://smelkon:sm121212@ds059306.mlab.com:59306/mytv' } });
+var agenda = require('agenda')({ db: { address: 'mongodb://sakome:sm121212@ds059306.mlab.com:59306/mytv' } });
 var Sugar = require('sugar/date');
 var nodemailer = require('nodemailer');
 var _ = require('lodash');
@@ -83,7 +83,7 @@ userSchema.methods.comparePassword = function(candidatePassword, cb) {
 var User = mongoose.model('User', userSchema);
 var Show = mongoose.model('Show', showSchema);
 
-mongoose.connect('mongodb://smelkon:sm121212@ds059306.mlab.com:59306/mytv');
+mongoose.connect('mongodb://sakome:sm121212@ds059306.mlab.com:59306/mytv');
 
 var app = express();
 
