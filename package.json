@@ -1,6 +1,7 @@
 {
   "name": "MyTV",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "karma start public/test/karma.conf.js"
@@ -37,7 +38,13 @@
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.2"
   },
+  "author": "Sarkis Melkonyan",
+  "license": "MIT",
   "engines": {
    "node": "6.7.0"
  },
+ "repository": {
+   "type": "git",
+   "url": "https://github.com/SakoMe/mytv"
+ }
 }
