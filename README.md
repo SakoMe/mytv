@@ -1,6 +1,16 @@
-MyTv App in the MEAN stack
-Playing with the TVDB API.
-Clone or download and run npm install
-In one terminal window run mongod
-In the second run gulp
-In the third run node server
+# Project Title
+
+MyTV App (MEAN stack), utilizing the TVDB API
+
+## Getting Started
+
+* Clone or Download
+* Run npm install
+* Run mongod
+* In another tab run gulp
+* in another tab run node server
+
+## Live Demo
+
+[DEMO](https://murmuring-waters-19761.herokuapp.com/)
+
